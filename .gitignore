@@ -123,10 +123,16 @@ celerybeat.pid
 .env
 .venv
 env/
-venv/
+pac/
 ENV/
 env.bak/
 venv.bak/
+
+# Audio files
+*.wav
+*.mp3
+!start-tone.wav
+!end-tone.wav
 
 # Spyder project settings
 .spyderproject
